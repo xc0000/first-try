@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<button @click="tq">1</button>
+		<button @click="tq">第一次本地修改</button>
 		<u-upload
 				:fileList="fileList1"
 				@afterRead="afterRead"
