@@ -9,6 +9,14 @@
 				multiple
 				:maxCount="10"
 			></u-upload>
+<u-upload
+				:fileList="fileList1"
+				@afterRead="afterRead"
+				@delete="deletePic"
+				name="1"
+				multiple
+				:maxCount="10"
+			></u-upload>
 			{{fileList1}}
 			{{namelist}}
 			
